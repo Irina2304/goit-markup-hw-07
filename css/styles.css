@@ -53,14 +53,6 @@ body {
     background-color:var(--white-background)
 }
 
-.container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -75,8 +67,56 @@ body {
     overflow: hidden;
 }
 
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media screen and (min-width: 428px) {
+    .container {
+        width: 428px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
 /*====COMPONENTS===*/
 
+
+
+
+/*
+
+
+
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+*/
+
+
+/*
 .logo-link {
     font-family: var(--logo-font);
     font-size: 18px;
@@ -158,13 +198,13 @@ body {
 .btn:hover,
 .btn:focus {
     background-color: var(--pressed-state);
-}
+}*/
 
 /*===/COMPONENTS===*/
 
 
 /*===HEADER===*/
-
+/*
 .header {
     border-bottom: 1px solid var(--accent);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08)
@@ -261,13 +301,13 @@ body {
     letter-spacing: 0.02em;
     color: var(--text);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 
 /*===/HEADER===*/
 
 
 /*===MAIN SECTION===*/
-
+/*
 .main-section {
     background-color: var(--hero-background);
     min-height: 600px;
@@ -292,13 +332,13 @@ body {
     margin: 0 auto;
     margin-bottom: 48px;
     max-width: 496px;
-}
+}*/
 
 /*===/MAIN SECTION===*/
 
 
 /*===SECTION DESCRIPTION===*/
-
+/*
 .description {
     padding: 120px 0;
 }
@@ -330,13 +370,13 @@ body {
 
 .head-description {
     margin-bottom: 8px;
-}
+}*/
 
 /*===/SECTION DESCRIPTION===*/
 
 
 /*===SECTION WHAT ARE WE DOING===*/
-
+/*
 .work {
     padding-bottom: 120px;
 }
@@ -354,13 +394,13 @@ body {
 
 .work-item {
     width: calc((100% - 48px) / 3);
-}
+}*/
 
 /*===/SECTION WHAT ARE WE DOING===*/
 
 
 /*===SECTION TEAM===*/
-
+/*
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -400,13 +440,13 @@ body {
 .social-list-team-link:hover,
 .social-list-team-link:focus {
     background-color: var(--pressed-state);
-}
+}*/
 
 
 /*===SECTION TEAM===*/
 
 /*===SECTION CUSTOMERS===*/
-
+/*
 .customers {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -440,12 +480,12 @@ body {
     margin: 0 auto;
     display: block;
     fill: currentColor;
-}
+}*/
 
 /*===/SECTION CUSTOMERS===*/
 
 /*===FOOTER===*/
-
+/*
 .footer {
     background-color: var(--dark);
     height: 312px;
@@ -560,12 +600,12 @@ body {
     margin-right: 24px;
     transform: translateY(-50%);
     fill: var(--white-background)
-}
+}*/
 
 /*===/FOOTER===*/
 
 /*===MODAL WINDOW===*/
-
+/*
 .backdrop {
     position: fixed;
     top: 0;
@@ -625,10 +665,10 @@ body {
 .modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:focus .modal-close-btn-icon {
     fill: var(--white-background);
-}
+}*/
 
 /*===MODAL FORM===*/
-
+/*
 .modal-form-name {
     font-weight: 500;
     font-size: 16px;
@@ -785,7 +825,7 @@ body {
 /*===PORTFOLIO===*/
 
 /*===MAIN SECTION===*/
-
+/*
 
 .main-portfolio-section {
     padding-top: 96px;
