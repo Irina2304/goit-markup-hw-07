@@ -39,16 +39,11 @@
           </ul>
         </nav>
         <button
-          class="menu-toggle js-open-menu"
+          class="menu-toggle js-open-menu menu-hamburger-btn"
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg
-            class="menu-hamburger-icon"
-            width="32"
-            height="22"
-            stroke="black"
-          >
+          <svg class="menu-hamburger-icon" width="32" height="22">
             <use href="./images/icon.svg#icon-charm_menu-hamburger"></use>
           </svg>
         </button>
@@ -69,34 +64,82 @@
         </address>
       </div>
       <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu mobile-menu-close-btn">
-          <svg class="mobile-menu-close-btn-icon" width="8" height="8">
-            <use href="./images/icon.svg#icon-cross"></use>
-          </svg>
-        </button>
-        <ul class="mobile-nav-menu list">
-          <li class="mobile-nav-item">
-            <a href="./index.html" class="mobile-menu-link link current"
-              >Studio</a
-            >
-          </li>
-          <li class="mobile-nav-item">
-            <a href="./portfolio.html" class="mobile-menu-link link"
-              >Portfolio</a
-            >
-          </li>
-          <li class="mobile-nav-item">
-            <a href="#" class="mobile-menu-link link">Contacts</a>
-          </li>
-        </ul>
+        <div class="mobile-menu-container container">
+          <button class="menu-toggle js-close-menu mobile-menu-close-btn">
+            <svg class="mobile-menu-close-btn-icon" width="8" height="8">
+              <use href="./images/icon.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <ul class="mobile-nav-menu list">
+            <li class="mobile-nav-item">
+              <a href="./index.html" class="mobile-menu-link link current"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a href="./portfolio.html" class="mobile-menu-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#" class="mobile-menu-link link">Contacts</a>
+            </li>
+          </ul>
+          <ul class="mobile-address-list list">
+            <li class="mobile-address-list-item">
+              <a
+                href="tel:+110001111111"
+                class="mobile-address-link mobile-tel-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-address-list-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-address-link mobile-mail-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="social-list-mobile social-list list">
+            <li class="social-list-mobile-item">
+              <a href="#" class="social-list-mobile-link social-list-link link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-mobile-item">
+              <a href="#" class="social-list-mobile-link social-list-link link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-mobile-item">
+              <a href="#" class="social-list-mobile-link social-list-link link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-mobile-item">
+              <a href="#" class="social-list-mobile-link social-list-link link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <!--MAIN-->
-    <!--
-    <main class="main">-->
+    
+    <main class="main">
     <!--main section-->
-    <!--
+    
       <section class="main-section">
         <div class="container main-container">
           <h1 class="main-headline">Effective Solutions for Your Business</h1>
@@ -104,10 +147,10 @@
             Order Service
           </button>
         </div>
-      </section>-->
-
+      </section>
+  
     <!--section description-->
-    <!--
+
       <section class="description">
         <div class="container">
           <h2 class="headline-description visually-hidden">Description</h2>
@@ -119,7 +162,7 @@
                 </svg>
               </div>
               <h3 class="headline-third head-description">Strategy</h3>
-              <p class="text">
+              <p class="text text-description">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -131,7 +174,7 @@
                 </svg>
               </div>
               <h3 class="headline-third head-description">Punctuality</h3>
-              <p class="text">
+              <p class="text text-description">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -143,7 +186,7 @@
                 </svg>
               </div>
               <h3 class="headline-third head-description">Diligence</h3>
-              <p class="text">
+              <p class="text text-description">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -155,17 +198,17 @@
                 </svg>
               </div>
               <h3 class="headline-third head-description">Technologies</h3>
-              <p class="text">
+              <p class="text text-description">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
             </li>
           </ul>
         </div>
-      </section>-->
+      </section> 
 
     <!--section what are we doing-->
-    <!--
+    
       <section class="work">
         <div class="container">
           <h2 class="headline-secondary">What are we doing</h2>
@@ -199,12 +242,12 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
 
     <!--section team-->
-    <!--
+    
       <section class="team">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="headline-secondary">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
@@ -429,7 +472,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
 
     <!--section customers-->
     <!--
@@ -643,8 +686,8 @@
           <button type="submit" class="modal-form-submit btn">Send</button>
         </form>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>-->
+    </div>-->
+    <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
